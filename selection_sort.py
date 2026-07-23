@@ -8,7 +8,7 @@ def selectionSort(array, size):
 
         array[ind], array[min_index] = array[min_index], array[ind]
 
-arr = [-2, 45, 0, 11, -9, 88, -97, -202, 747]
+arr = [5,2,6,1,3,4]
 size = len(arr)
 selectionSort(arr, size)
 
